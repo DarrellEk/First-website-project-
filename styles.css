@@ -1,0 +1,1098 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'Sono', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* 
+navbar
+*/
+
+nav {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10% 10px 10%;
+    background-color: rgb(246, 172, 0, 0.3);
+}
+
+.button-nav1 {
+    background-color: rgb(246, 172, 0);
+    border-style: none;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.button-nav1:hover {
+    background-color: black;
+    color: white; 
+}
+
+.logo button span:hover {
+    color: rgb(246, 172, 0);
+}
+
+.button-nav2, .button-nav3, .button-nav4 {
+    background-color: rgb(246, 172, 0);
+    border-style: none;
+    font-size: 18px;
+    font-weight:bold; 
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 20px;
+    padding: 10px 20px;
+    scroll-behavior: smooth;
+}
+
+.button-nav2:hover {
+    background-color: black;
+    color: rgb(246, 172, 0);
+}
+
+.button-nav3:hover {
+    background-color: black;
+    color: rgb(246, 172, 0);
+}
+
+.button-nav4:hover {
+    background-color: black;
+    color: rgb(246, 172, 0);
+}
+
+.button-nav1:active {
+    opacity: 0.5;
+    transition: 0s;
+}
+
+.button-nav2:active {
+    opacity: 0.3;
+    transition: 0s;
+}
+
+.button-nav3:active {
+    opacity: 0.3;
+    transition: 0s;
+}
+
+.button-nav4:active {
+    opacity: 0.3;
+    transition: 0s; 
+}
+
+.logo {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo:hover {
+    text-decoration: underline;
+
+}
+
+span {
+    color: white;
+}
+
+.span2 {
+    color: black;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 20px 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.nav-button {
+    border: none;
+    background-color: black;
+    color: white; 
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.nav-button:hover {
+    background-color: white;
+    color: black;
+}
+
+/*
+navbar
+*/
+
+/*
+Contact page 
+*/
+
+.contact-section {
+    border: solid black 4px;
+    height: 720px;
+    margin: 50px 100px 100px 100px;
+    padding: 25px; 
+    background-color: rgb(255, 255, 255, 0.55);
+}
+
+.contact-section h2, .contact-section p{
+    text-align: center;
+    line-height: 35px;
+    padding: 0 50px 0 50px;
+}
+
+.contact-section p {
+    margin-bottom: 50px;
+}
+
+.contact-box {
+    display: flex;
+    border: solid black 1px;
+    height: 450px;
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background-color: rgb(255, 255, 255, 0.4);
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background: rgb(0, 0, 0, 0.4);
+    color: rgb(255, 255, 255);
+}
+
+.input-row {
+    display:flex; 
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-bottom: 5px;
+    background-color: rgb(255, 255, 255, 0.05);
+}
+
+textarea {
+    width: 100%;
+    border: solid black 1px;
+    outline:none;
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255, 0.4);
+}
+
+label {
+    margin-bottom: 6px;
+    display: block;
+    font-weight: bold;
+}
+
+.button-con {
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px 35px 10px 35px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.button-con:hover {
+    background-color: rgb(246, 172, 0);
+    color: white;
+}
+
+.contact-left h3 {
+    margin-bottom: 20px;
+}
+
+.contact-right h3 {
+    margin-bottom: 20px;
+}
+
+tr td:first-child {
+    padding-right: 20px;
+}
+
+tr td {
+    padding: 0 0 40px 0;
+    font-weight: bold;
+}
+
+.insta-button, .tiktok-button {
+    color: white;
+    background-color: rgb(0, 0, 0, 0.05);
+    border: none;
+    cursor:pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.insta-button:hover, .tiktok-button:hover {
+    background-color: orange;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.body-contact {
+    background-image: url(./Assets/rolls\ royce.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+/*
+contact page
+*/
+
+/*
+homepage 
+*/
+
+#homepage {
+    background-image: url(./Assets/porsche\ wallpaper.jpeg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.homepage {
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage h1, .homepage p, .homepage a {
+    margin-bottom: 50px;
+}
+
+.homepage h1 {
+    font-size: 50px;
+    margin-top: -250px;
+    color: white;
+    background-color: rgba(59, 56, 56, 0.5);
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.homepage p {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    max-width: 800px;
+    line-height: 30px;
+    color: white;
+    letter-spacing: 3px;
+    background-color: rgba(59, 56, 56, 0.4);
+    border-radius: 10px;
+}
+
+.homepage a {
+    text-decoration: none;
+    background-color: black;
+    color: rgb(246, 172, 0);
+    padding: 11px 47px;
+    border-radius: 24px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.homepage a:hover {
+    background-color: rgb(246, 172, 0);
+    color: black;
+    border: white 3px solid;
+}
+
+/*
+car-type
+*/
+
+
+#booking{
+    height: 100vh;
+    width: 100%;
+}
+
+.car-selection {
+    margin: 50px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: -50px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.box3 {
+    text-align: center;
+    padding: 0 150px 0 150px;
+}
+
+.car-type {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0 0 0;
+    margin: 0 30px 0 30px;
+}
+
+.sedan, .coupe, .convertible {
+    display: inline-block;
+    margin-top: -70px;
+}
+
+.sedan-img, .coupe-img, .convertible-img {
+    display:flex;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.sedan-img:hover, .coupe-img:hover, .convertible-img:hover, .suv-img:hover, .mpv-img:hover, .limo-img:hover{
+    opacity: 0.4;
+}
+
+.sedan-title, .coupe-title, .convertible-title {
+    text-align: center;
+}
+
+.sedan-link, .coupe-link {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.convertible-link {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.suv, .mpv, .limo {
+    display: inline-block;
+    padding-bottom: 50px;
+}
+
+.suv-img, .mpv-img, .limo-img {
+    display: flex;
+    justify-content: center;
+    transition: 0.8s;
+}
+
+.suv-title, .mpv-title, .limo-title {
+    text-align: center;
+}
+
+.suv-title {
+    padding-top: 12px;
+}
+
+.suv-link, .mpv-link, .limo-link {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.sedan-link:hover, .coupe-link:hover, .convertible-link:hover, .suv-link:hover, .mpv-link:hover, .limo-link:hover {
+    color: rgb(246, 172, 0);
+    text-decoration: underline;
+}
+
+/*
+cartype-end
+*/
+
+/*
+carbrand-start
+*/
+
+#car-brand {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/Assets/background/moonbackground.jpg);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.logoz {
+    width: 250px;
+    height: 250px;
+    margin: -20px;
+    text-align: center;
+}
+
+.logoz a img {
+    width: 130px;
+    padding-top: 60px;
+    display: inline-block;
+}
+ 
+.audi1 {
+    padding-top: 60px;
+}
+    
+.bentley1 {
+    padding-top: 70px;
+}
+
+.mclaren {
+    padding-top: 60px;
+}
+
+.maseratti {
+    padding-top: 15px;
+}
+
+.porsche:hover, .audi1:hover, .bmw1:hover, .bentley1:hover, .lambo1:hover, .ferrari1:hover, .mercedes:hover, .mclaren:hover, .maseratti:hover, .volks:hover {
+    opacity: 0.4;
+}
+
+.brand-links {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.brand-links a {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: black;
+    color: rgb(246, 172, 0);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px 15px 10px 15px;
+    transition: 0.5s;
+}
+
+.brand-links a:hover {
+    background-color: white;
+    color: black;
+}
+
+.brand-links22 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.brand-links22 a {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: black;
+    color: rgb(246, 172, 0);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px 15px 10px 15px;
+    transition: 0.5s;
+}
+
+.brand-links22 a:hover {
+    background-color: white;
+    color: black;
+}
+
+.box1a {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding-top: 30px;
+    color: white;
+}
+
+.box2a {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: rgb(246, 172, 0);
+}
+
+.box3a {
+    text-align: center;
+    padding: 0 150px 0 150px;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+carbrand-end
+*/
+/* 
+homepage
+*/
+
+/*
+about 
+*/ 
+
+.body-about {
+    background-image: url(./Assets/background/pexel1.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+}
+
+#about-page {
+    width: 100%;
+    height: 100vh;
+    padding: 78px 0px 0px 0px ;
+    margin-bottom: 0px;
+}
+
+#about-page img {
+    height: auto;
+    width:500px;
+    opacity: 0.9;
+}
+
+#about-textt {
+    width: 550px;
+}
+
+.about-main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-textt h1 {
+    font-size: 70px;
+    margin-bottom: 20px ;
+    color: rgb(246, 172, 0);
+}
+
+.about-h2 {
+    font-size: 50px;
+    padding-left: 5px;
+}
+
+.about-textt h5 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.about-textt p {
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    color: white;
+    font-weight: bold;
+}
+
+.about-buttonn {
+    background-color: rgb(246, 172, 0);
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px 30px 15px 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.about-buttonn:hover {
+    border: solid 4px rgb(246, 172, 0);
+    background-color: black;
+    color: white;
+    padding: 11px 26px 11px 26px;
+}
+
+.about-buttonn:active {
+    opacity: 0.4;
+    transition: 0s;
+}
+
+#aboutpg2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./Assets/background/road.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+}
+
+.jamal-circle {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    border: solid 3px white;
+}
+
+.aboutpg2-img {
+    margin-top: 50px;
+}
+
+.aboutpg2-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 50px;
+    margin-top: -69px;
+    text-align: center;
+}
+
+.aboutpg2-container h1 {    
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    color: rgb(246, 172, 0);
+}
+
+.aboutpg2-container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: black
+}
+
+.aboutpg2-container p {
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 35px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.aboutpg2-button {
+    color: black;
+    background-color: rgb(246, 172, 0);
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 30px;
+    font-weight: bold;
+    transition: 0.5s;
+    font-size: 18px
+}
+
+.aboutpg2-button:hover {
+    border: solid 4px rgb(246, 172, 0);
+    background-color: black;
+    color: white;
+}
+
+#aboutpg3 {
+    background-image: url(./Assets/background/tesls.jpg);
+    height: 100vh;
+    width: 100%;
+    padding-top: 80px;
+    margin-top: 0px
+}
+
+.aboutpg3-img {
+    margin-top: 50px;
+}
+
+.aboutpg3-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 50px;
+    margin-top: -69px;
+    text-align: center;
+}
+
+.aboutpg3-container h1 {    
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    color: white;
+}
+
+.aboutpg3-container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(246, 172, 0);
+}
+
+.aboutpg3-container p {
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 35px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.elon-circle {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    border: solid 3px white
+}
+
+#aboutpg4 {
+    background-image: url(./Assets/background/bugaatti3.jpeg);
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding-top: 80px;
+    margin-top: 0;
+}
+
+.aboutpg4-img {
+    margin-top: 50px;
+}
+
+.aboutpg4-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 50px;
+    margin-top: -69px;
+    text-align: center;
+}
+
+.aboutpg4-container h1 {    
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    color: white;
+}
+
+.aboutpg4-container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(246, 172, 0);
+}
+
+.aboutpg4-container p {
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 35px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.andrew-circle {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: left;
+    width: 300px;
+    height: 300px;
+    border: solid 3px white;
+}
+
+#aboutpg5 {
+    background-image: url(./Assets/background/john\ cena\ wallpaper.webp);
+    background-position: left;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding-top: 80px;
+    margin-top: 0;
+}
+
+.aboutpg5-img {
+    margin-top: 50px;
+}
+
+.aboutpg5-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 50px;
+    margin-top: -69px;
+    text-align: center;
+}
+
+.aboutpg5-container h1 {    
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    color: white;
+}
+
+.aboutpg5-container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(246, 172, 0);
+}
+
+.aboutpg5-container p {
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 35px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.john-circle {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/*
+about
+*/
+
+/*
+faq page
+*/
+
+.faq-sectionfam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #3c4053;
+    background-image: url(./Assets/background/henessy.jpeg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.faq-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.faq-accorditem {
+    background-color: rgba(53, 52, 52, 0.7);
+    border-radius: 0.4rem;
+    margin-bottom: 1rem;
+    padding: 5px 20px 5px 40px;
+}
+
+.faq-link {
+    font-size: 20px;
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.faq-link ion-icon {
+    color: #e7d5ff;
+    padding: 0.5rem;
+}
+
+.faq-link  .removeicon {
+    display: none;
+}
+
+.faq-answer2 {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(52, 48, 48, 0.2);
+    transition: 0.5s;
+}
+
+.faq-answer2::before {
+    content:"";
+    position: absolute;
+    width: 0.6rem;
+    height: 90%;
+    background-color: rgb(246, 172, 0);
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.faq-answer2 p {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    padding: 2rem;
+    line-height: 30px;
+}
+
+.faq-accorditem:target .faq-answer2 {
+    max-height: 20rem;
+}
+
+
+/*
+faq page
+*/
+
+/* 
+footer
+*/
+
+footer {
+    background: rgba(45, 45, 45, 0.8);
+    width: 100vw;
+    height: auto;
+    padding-top: 15px;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.footer-content p {
+    max-width: 500px;
+    margin: 5px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0 0px 0;
+}
+
+.footer-socials li {
+    margin: 0 10px;
+}
+
+.footer-socials a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.footer-socials a:hover i {
+    color: rgb(246, 172, 0);
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-align: center;
+    padding: 20px 0 20px;
+}
+
+.footer-button {
+    background-color: rgba(45, 45, 45, 0.05);
+    border: none;
+    color: white;
+    font-size: 34px;
+    height: 35px;
+    width: 45px;
+    transition: 0.6s;
+    border-radius: 16px;
+}
+
+.footer-button:hover {
+    background-color: rgb(246, 172, 0);
+    color: black;
+}
+
+.footer-button:active {
+    background-color: white;
+    color: rgb(246, 172, 0);
+}
+
+/*
+footer
+*/
